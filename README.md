@@ -12,7 +12,7 @@ A macOS application with SwiftUI frontend and ExifTool backend for viewing and e
 ## Installation
 
 ### Download
-Download the latest release from [Releases](https://github.com/yourusername/your-app-name/releases)
+Download the latest release from [Releases](https://github.com/aarons3225/exifUI/releases)
 
 ### Manual Installation
 1. Download the `.dmg` file
@@ -34,9 +34,9 @@ Download the latest release from [Releases](https://github.com/yourusername/your
 
 ## Building from Source
 ```bash
-git clone https://github.com/yourusername/your-app-name.git
-cd your-app-name
-open YourApp.xcodeproj
+git clone https://github.com/aarons3225/exifUI.git
+cd exifUI
+open exifUI.xcodeproj
 ```
 
 Build in Xcode (⌘B) and run (⌘R)
