@@ -1,4 +1,4 @@
-# YourAppName
+# ExifUI
 
 A macOS application with SwiftUI frontend and ExifTool backend for viewing and editing image metadata.
 
