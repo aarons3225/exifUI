@@ -1,0 +1,40 @@
+name: ExifUI
+options:
+  bundleIdPrefix: com.exifui
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+  minimumXcodeGenVersion: "2.35.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    ENABLE_PREVIEWS: "YES"
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  ExifUI:
+    type: application
+    platform: macOS
+    sources:
+      - path: ExifUI
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.exifui.app
+        PRODUCT_NAME: ExifUI
+        INFOPLIST_FILE: ExifUI/Info.plist
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: "NO"
+        CODE_SIGN_ENTITLEMENTS: ExifUI/ExifUI.entitlements
+        ENABLE_APP_SANDBOX: "YES"
+        ENABLE_USER_SELECTED_FILES: readwrite
+        ENABLE_HARDENED_RUNTIME: "YES"
+    info:
+      path: ExifUI/Info.plist
+    entitlements:
+      path: ExifUI/ExifUI.entitlements
